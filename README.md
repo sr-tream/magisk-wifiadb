@@ -1,6 +1,6 @@
 # Magisk
 
-A magisk module to enable WiFi ADB on boot.
+A magisk module to fix port for WiFi ADB.
 
 ## Usage
 
@@ -14,5 +14,4 @@ By setting properties in /common/service.sh to enable WiFi ADB:
 su
 setprop service.adb.tcp.port 5555
 stop adbd
-start adbd
 ```
